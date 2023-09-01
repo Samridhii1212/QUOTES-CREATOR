@@ -1,0 +1,217 @@
+/* .App {
+  text-align: center;
+  margin-top: 80px;
+} */
+
+body{
+margin:0px;
+ /* background: rgb(255, 185, 235);
+background: linear-gradient(90deg, rgba(255, 185, 235, 1) 0%, rgba(160, 0, 213, 1) 100%, rgba(213, 29, 237, 1) 100%);  */
+background-color: rgb(147, 111, 65);
+}
+.left
+{
+  background-color:rgb(249, 245, 245);
+  width:400px;
+  height:400px;
+}
+.right
+{
+background-color: rgb(50, 44, 49);
+width: 400px;
+color:white;
+
+}
+
+
+.right input
+{
+   
+  display: block;
+  margin-top:50px;
+  margin-left:50px;
+  height:30px;
+  width:250px;
+  font-size:20px;
+}
+
+.inner
+{
+  display: flex;
+  flex-direction:row;
+  
+  
+}
+.main
+{
+  width:800px;
+  height:400px;
+  margin-top:50px;
+  text-align: center;
+  margin-left:200px;
+  margin-bottom:10px;
+  justify-content: center;
+  align-items: center;
+  
+  
+
+}
+.main button{
+  background-color:#6D5454;
+  margin-top:60px;
+  color: white;
+  width:100px;
+  height:30px;
+}
+.main button:hover
+{
+  cursor: pointer;
+}
+.loginlogo
+{
+  width:200px;
+  height:200px;
+  
+}
+.change
+{
+  background-color: #6D5454;
+  margin-top:20px;
+  margin-bottom:0px;
+  width:200px;
+  margin-left:500px;
+  height:50px;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  text-align: center;
+  padding-bottom:5px;
+  border:none;
+  font-size:20px;
+}
+
+
+.nav {
+
+  height:60px;
+  margin-top:0px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left:10px;
+
+}
+.nav button{
+ background-color: rgb(69, 62, 70);
+  justify-content: space-between;
+  margin-left: 150px;
+  height: 30px;
+  margin-top: 10px;
+  border: none;
+  font-size: 20px;
+  color: aliceblue;
+  border-radius: 50px;
+  width: 200px;
+}
+.out
+{
+  background-color: brown;
+}
+.create
+{
+  background-color: rgb(69, 62, 70);
+  height:200px;
+  width:250px;
+  margin-top:40px;
+  margin-left:500px;
+  color:white;
+  font-size:30px;
+}
+.create-quote h1{
+  color:azure;
+  text-align: center;
+  
+}
+.create-quote
+{
+  align-items: center;
+}
+.create-quote button
+{
+  margin-left:600px;
+  margin-top:20px;
+  background:rgb(69, 62, 70);
+  border-radius:50px;
+  font-size: 20px;
+  color: aliceblue;
+  border: none;
+
+}
+.each {
+  background-color: rgb(69, 62, 70);
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-right: 10px;
+  width: 200px;
+  color: aliceblue;
+  font-size:20px;
+}
+
+.list {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill,
+      minmax(250px, 1fr));
+}
+
+.show h1{
+  color:white;
+  align-items: center;
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+.front button
+{
+  background-color: rgb(69, 62, 70);
+  justify-content: space-between;
+  margin-left: 150px;
+  height: 30px;
+  margin-top:10px;
+  border: none;
+  font-size:20px;;
+  color: aliceblue;
+  border-radius: 50px;
+  width:100px;
+}
+.frontwrite{
+  display: flex;
+  flex-direction: row;
+  margin-top:70px;
+  margin-left:300px;
+
+}
+.leftwrite
+{
+background-color: rgb(147, 111, 65);
+ width: 400px;
+height: 400px;
+color: aliceblue;
+}
+.rightwrite {
+  background-color: rgb(249, 245, 245);
+  width: 400px;
+  height: 400px;
+  margin-left:50px;
+}
+.leftwrite h1
+{
+  font-family:gabriola;
+  font-size: 70px;
+}
+
